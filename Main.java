@@ -21,6 +21,7 @@ public class Main {
 		objectSet.add(new DomainObject("Paul"));
 		objectSet.add(new DomainObject("Claudia"));
 		objectSet.add(new DomainObject("Pascal"));
+		objectSet.add(new DomainObject("Mario"));
 
 		for (DomainObject domainObject : objectSet) {
 			LOGGER.debug(domainObject.id);
